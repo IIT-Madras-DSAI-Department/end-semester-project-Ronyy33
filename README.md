@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/R05VM8Rg)
 # IIT-Madras-DA2401-Machine-Learning-Lab-End-Semester-Project
 
 ## 📌 Purpose of this Template
@@ -17,13 +18,20 @@ This repository is the **starter** for your End Semester Project submission in G
 
 ## 📁 Repository Structure
 
-* Describe your repository structure here. Explain about overall code organization.
+* My repo has  mainly 3 files:
+* 1. algorithms.py has all the algorithms I used in my models , other algorthims which I tried are mentioned in my report
+  2. main.py has datased loader , code execution block
+  3. LAB_ENDSEM_REPORT.pdf is my overall project report
+* There is one more file named PCA_train.py which outputs the PCA variance captured vs number of components.This is optional as I have already attached the output png in my report.
 
 ---
 
 ## 📦 Installation & Dependencies
 
-* Mention all the related instructions for installation of related packages for running your code here.
+1. numpy
+2. pandas
+3. time
+4. matplotlib
 
 ---
 
@@ -33,8 +41,11 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ### A. Command-line (recommended for grading)
 
-* Mention the instructions to run you .py files.
-  
+firstly I would request to run all files in same folder , because that is what I did , and my CSV loader works that way. So after taking all files in one folder , firstly run main.py , there is a funtion called main , which has the csv import info , you can change the test data from validation.csv to the test csv you have. 
+All the results are there , including accuracy , confusion matrix , F1_score , etc needed for evaluation.
+Then go through my report for understanding my approach.
+You can optionally run pca_train.py to verify the plot I showed in my report.
+
 ---
 
 ## You can further add your own sections/titles along with corresponding contents here:
@@ -43,7 +54,7 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ## 🧾 Authors
 
-**<Name, Roll No.>**, IIT Madras (2025–26)
+**<Rohan Sirsewad, Roll No. - DA24B023>**, IIT Madras (2025–26)
 
 
 ## Best Practices:
