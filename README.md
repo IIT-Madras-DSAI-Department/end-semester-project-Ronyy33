@@ -18,7 +18,6 @@ This repository is the **starter** for your End Semester Project submission in G
 
 ## 📁 Repository Structure
 
-* Describe your repository structure here. Explain about overall code organization.
 * My repo has  mainly 3 files:
 * 1. algorithms.py has all the algorithms I used in my models , other algorthims which I tried are mentioned in my report
   2. main.py has datased loader , code execution block
