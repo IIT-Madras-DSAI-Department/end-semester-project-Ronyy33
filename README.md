@@ -19,12 +19,20 @@ This repository is the **starter** for your End Semester Project submission in G
 ## 📁 Repository Structure
 
 * Describe your repository structure here. Explain about overall code organization.
+* My repo has  mainly 3 files:
+* 1. algorithms.py has all the algorithms I used in my models , other algorthims which I tried are mentioned in my report
+  2. main.py has datased loader , code execution block
+  3. LAB_ENDSEM_REPORT.pdf is my overall project report
+* There is one more file named PCA_train.py which outputs the PCA variance captured vs number of components.This is optional as I have already attached the output png in my report.
 
 ---
 
 ## 📦 Installation & Dependencies
 
-* Mention all the related instructions for installation of related packages for running your code here.
+1. numpy
+2. pandas
+3. matplotlib
+4. time
 
 ---
 
