@@ -31,8 +31,8 @@ This repository is the **starter** for your End Semester Project submission in G
 
 1. numpy
 2. pandas
-3. matplotlib
-4. time
+3. time
+4. matplotlib
 
 ---
 
@@ -42,8 +42,11 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ### A. Command-line (recommended for grading)
 
-* Mention the instructions to run you .py files.
-  
+firstly I would request to run all files in same folder , because that is what I did , and my CSV loader works that way. So after taking all files in one folder , firstly run main.py , there is a funtion called main , which has the csv import info , you can change the test data from validation.csv to the test csv you have. 
+All the results are there , including accuracy , confusion matrix , F1_score , etc needed for evaluation.
+Then go through my report for understanding my approach.
+You can optionally run pca_train.py to verify the plot I showed in my report.
+
 ---
 
 ## You can further add your own sections/titles along with corresponding contents here:
@@ -52,7 +55,7 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ## 🧾 Authors
 
-**<Name, Roll No.>**, IIT Madras (2025–26)
+**<Rohan Sirsewad, Roll No. - DA24B023>**, IIT Madras (2025–26)
 
 
 ## Best Practices:
